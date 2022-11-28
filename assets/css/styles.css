@@ -1,0 +1,16 @@
+i {
+  color: var(--bs-indigo);
+}
+
+@media (min-width: 300px) {
+  .iconcol {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .iconcol {
+    display: flex;
+  }
+}
+
